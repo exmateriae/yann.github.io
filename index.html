@@ -1,19 +1,71 @@
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
   <title>My Portfolio</title>
-  <link href="static/css/portfolio.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+<h1>Ex Materiae's Portfolio</h1>
+<h2>Day 24 - RollDice</h2>
 
-  <h1>{name}'s Portfolio</h1>
-  <h2>{title}</h2>
-  <p>{text}</p>
-<a href="{link}"><img src="static/images/{image}" width="500px"></a>
+<p>Roll a random dice! It showed how a bit of code could do quite a lot and was used in impressive manners the days after.</p>
+
+  <img src="images/day 24.png" width = 30%>
+  <p><a href = "https://replit.com/@sefirosuyanou/RollDice">How many sides does your dice have?</a></p>
+
+<h2>Day 53 - Video Game Inventory</h2>
+<p>A basic working video game inventory.</p>
+
+  <img src="images/day 53.png" width = 30%>
+  <p><a href = "https://replit.com/@sefirosuyanou/Day53100Days">Behold the infamous Dark saber.</a></p>
+  
+<h2>Day 55 - To Do List</h2>
+
+<p>Add, edit, remove or view to do elements. It asked us to consider a large code with several subroutines.</p>
+
+  <img src="images/day 55.png" width = 30%>
+  <p><a href = "https://replit.com/@sefirosuyanou/TO-DO-List-with-priorities">Here's another joke.</a></p>
+
+<h2>Day 64 - Jobs Classes Creator</h2>
+<p>Use of the classes to create differents instances of characters. I knew pygame but this was a clear way of using OOP.</p>
+
+<img src="images/day 64.png" width = 30%>
+<p><a href = "https://replit.com/@sefirosuyanou/Classes-jobs"> Create your own experience in this new revolutionary MMORPG.(only if you want to be a generic hero, a vampire or an orc)</a></p>
+
+<h2>Day 70 - Passwords handling</h2>
+
+<p>This project allows users to create logins, store them and then login. It showed a very real world application.</p>
+
+  <img src="images/day 70.png" width = 30%>
+  <p><a href = "https://replit.com/@sefirosuyanou/Login-System">Is your password password? If so, hashing and salting might not be of help.</a></p>
+
+
+<ul>
+  <li>Beautiful bald man</li>
+  <li>Calm and cool under pressure</li>
+  <li>All the Picard memes</li>
+</ul>
+
+<p><a href = "page2.html">Go to page 2</a></p>
+<<py-script>
+def palindrome(word):
+  if len(word)<=1:
+    print("Oh! Tu as trouvé un palindrome!")
+    return True
+  if word[0] != word[-1]:
+    print("Ce mot n'est pas un palindrome... Un palindrome est un mot qui se lit de la même manière de gauche à droite et de droite à gauche.")
+    return False
+  return palindrome(word[1:-1])
+
+while True:
+  word = input("Propose un mot et je te dirai s'il s'agit d'un palindrome: \n")
+  palindrome(word)
+
+</py-script>
 
 </body>
-
 </html>
