@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #d7efd7;
+  }
+  
+  h1, h2, h3 {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: #e4ece5;
+    background-color: #91d27f;
+    text-align:center;
+    padding : 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #ece2d4;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+  
+  p, li {
+    font-family: monospace;
+    font-size: 16px;
+    color: blue;
+     text-align:center;
+     padding : 5px
+  }
